@@ -11,6 +11,7 @@ public class CrashCourseOne {
 
         Scanner scan = new Scanner(System.in);
 
+        //Collect information
         System.out.println("What is your name?");
         String name = scan.nextLine();
 
@@ -21,6 +22,7 @@ public class CrashCourseOne {
 
         System.out.println(weapon + " is a fine choice!");
 
+        //Set up game
         Entity player = new Entity();
         Entity ogre = new Entity(50.0, 20.0);
 //        ogre.health = 50.0;
