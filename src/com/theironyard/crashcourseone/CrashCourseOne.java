@@ -8,6 +8,8 @@ import java.util.Scanner;
 public class CrashCourseOne {
 
     public static void main(String args[]) {
+        System.out.println("OGRE FIGHT!");
+
 
         Scanner scan = new Scanner(System.in);
 
